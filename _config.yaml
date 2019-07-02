@@ -1,0 +1,30 @@
+# 配置文件请严格遵循yaml语法格式，yaml学习地址:
+#  https://ansible-tran.readthedocs.io/en/latest/docs/YAMLSyntax.html
+#  http://einverne.github.io/post/2015/08/yaml.html
+
+# 定时时间
+alarm_timed: '20:35'
+
+
+
+receiver_infos:
+  - #女友微信昵称或者备注名，不能输入微信号。
+    wechat_name: '商博良'
+#用于发送的句子
+sentences:
+  - '爸妈晚上好～'
+  - '爸妈我今天诸事顺利'
+  - '今天平安～'
+  - '爸妈我今天事情挺多比较累'
+  - '爸妈，今天没什么特别的事情发生'
+  - '爸妈我今天过的挺正常的'
+  - '爸妈爸妈我今天有点累，我先休息会'
+  - '爸妈今天事情挺多的我接着忙了'
+  - '爸妈今天我过的挺无聊的，'
+  - '爸妈今天一切正常'
+  - 'nothing specuial~'
+  - '爸妈我来报平安了～'
+  - '今天例行保平安～'
+  - '每日程序保平安～'
+  - '爸妈今天快乐'
+  - '今天无事发生～'
